@@ -1,0 +1,139 @@
+.main-yellow-box{
+    width: 1100px;
+    height: 650px;
+    border: 10px solid rgb(247, 209, 55);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-shrink: 0;
+}
+.image-right{
+display: flex;
+justify-content: end;
+}
+.row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.logo{
+    margin-left: 420px;
+}
+.logo img{
+    height: 130px;
+    width: 300px;
+}
+.row1-image{
+margin-left: 0px;
+margin-right: 200px;
+border: 5px solid #F7D137;
+border-radius: 60%;
+overflow: hidden;
+margin-top: -25px;
+}
+.nav-pills .nav-link.active{
+    background-color: #F7D137;
+    font-weight: 600;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
+}
+.nav-pills li a{
+    background-color: rgb(247, 209, 55);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px
+}
+.nav-pills li a{
+    transition: background-color 0.5s;
+}
+.nav-pills li a:hover{
+    color: white;
+    background-color: rgb(210, 180, 54);
+}
+.button button{
+    background-color: rgb(247, 209, 55);
+    color: white;
+    border: 1px solid rgb(247, 209, 55);
+    transition: background-color 0.5s;
+    font-weight: 600;
+    width: 160px;
+}
+.button button:hover{
+    background-color: rgb(210, 180, 54);
+    border: 1px solid rgb(210, 180, 54);
+}
+.button1 button{
+    background-color: rgb(247, 209, 55);
+    color: black;
+    border: 1px solid rgb(247, 209, 55);
+    transition: background-color 0.5s;
+    font-weight: 600;
+    width: 250px;
+    text-align: justify;
+}
+
+.footer_socail_links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.footer_socail_links a {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 35px;
+    background: rgb(247, 209, 55);
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 0.5s;
+    animation-name: social-links;
+    animation-duration: 4s;
+    animation-delay: 1.3s;
+    animation-iteration-count: infinite;
+}
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+@keyframes social-links {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+  }
+  .ri-google-fill{
+    color: black;
+  }
+  .justify-content-center{
+
+    align-items: center;
+  }
+  .button1 button:hover{
+    background-color: rgb(247, 209, 55);
+    border-color: rgb(247, 209, 55);
+    box-shadow: 200px;
+}
